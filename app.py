@@ -34,3 +34,4 @@ class YahooApi:
 
 yahoo = YahooApi()
 print(yahoo.get_last_close_price("NIKE"))
+print(yahoo.get_last_close_price("TSLA"))
